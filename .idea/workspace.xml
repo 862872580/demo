@@ -1,62 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09202e0b-0d22-4354-9063-7b8e9665ddd3" name="Default Changelist" comment="my">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activeMQ/producers/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activeMQ/producers/TopProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activeMQ/receivers/Receiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/activeMQ/receivers/TopReceiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itmayiedu/app/ScheduledTasks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itmayiedu/app/WebLogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itmayiedu/app/app.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itmayiedu/beans/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itmayiedu/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itmayiedu/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itmayiedu/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itmayiedu/dao/IStudentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itmayiedu/dao/IUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itmayiedu/service/IStudentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itmayiedu/service/StudentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/itmayiedu/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/httpclientUtils/HttpclientUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/quartz/MyJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/quartz/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/redis/app/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/redis/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/redis/service/RedisService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/SingletonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singleton/SingletonTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zookeeper/ZKWatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zookeeper/ZookeeperDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zookeeper/lock/Lock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zookeeper/lock/OrderNumGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zookeeper/lock/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zookeeper/lock/ZookeeperAbstractLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zookeeper/lock/ZookeeperDistrbuteLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ehcache.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/imgs/zhuomian.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/error.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/fail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/welcome.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/mybatis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/note.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/spring-db.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/spring-mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/spring-mybatis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/spring-service.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/spring-tx.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/resources/spring-vr.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello.java" beforeDir="false" />
-    </list>
+    <list default="true" id="09202e0b-0d22-4354-9063-7b8e9665ddd3" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -184,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586589925260</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="my">
+      <created>1586590190979</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586590190979</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,10 +195,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="400" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1586586984968" />
-    <state x="381" y="161" key="CommitChangelistDialog2" timestamp="1586589946701">
+    <state x="381" y="161" key="CommitChangelistDialog2" timestamp="1586590226089">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="381" y="161" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586589946701" />
+    <state x="381" y="161" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586590226089" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1586587617431">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -267,13 +219,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="261" y="143" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586589984251" />
-    <state x="373" y="301" key="Vcs.Push.Dialog.v2" timestamp="1586590153972">
+    <state x="373" y="301" key="Vcs.Push.Dialog.v2" timestamp="1586590222203">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="373" y="301" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586590153972" />
-    <state x="573" y="485" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586590124023">
+    <state x="373" y="301" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586590222203" />
+    <state x="573" y="485" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586590201939">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="573" y="485" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586590124023" />
+    <state x="573" y="485" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1586590201939" />
   </component>
 </project>
