@@ -1,0 +1,17 @@
+<%
+  String basePath = request.getScheme() + "://"
+          + request.getServerName() + ":" + request.getServerPort()
+          + request.getContextPath() + "/";
+%>
+    <base href="<%=basePath%>"/>
+
+
+jdbc:mysql://127.0.0.1:3306/mytest?characterEncoding=utf-8&useSSL=false
+
+
+@EnableAutoConfiguration(exclude = {DataSourceAutoConfiguration.class})
+
+@SpringBootApplication(exclude={DataSourceAutoConfiguration.class, HibernateJpaAutoConfiguration.class})
+
+//机器人接口
+http://api.qingyunke.com/api.php?key=free&appid=0&msg=上海天气
