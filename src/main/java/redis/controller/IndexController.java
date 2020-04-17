@@ -16,7 +16,6 @@ public class IndexController {
 
     @RequestMapping("/setToken")
     public String setToken(String value){
-        System.out.println(1);
         String tokenKey = UUID.randomUUID() + "";
         redisService.setString(tokenKey,value ,20L);
         return tokenKey;
@@ -24,8 +23,6 @@ public class IndexController {
 
     @RequestMapping("/getToken")
     public String getToken(String key){
-        System.out.println(2);
-
         return (String) redisService.getString(key);
     }
 }

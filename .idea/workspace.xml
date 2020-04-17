@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09202e0b-0d22-4354-9063-7b8e9665ddd3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/myredis/app/ScheduledTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/myredis/app/ScheduledTasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/redis/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/redis/controller/IndexController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -218,7 +219,7 @@
       <workItem from="1587112200991" duration="39000" />
       <workItem from="1587112255790" duration="697000" />
       <workItem from="1587113137139" duration="265000" />
-      <workItem from="1587113468775" duration="941000" />
+      <workItem from="1587113468775" duration="1554000" />
     </task>
     <task id="LOCAL-00001" summary="my">
       <created>1586589925260</created>
@@ -255,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587114368650</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="my">
+      <created>1587114528106</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587114528106</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
