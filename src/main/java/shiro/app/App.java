@@ -1,15 +1,12 @@
-package redis_scheduledTasks.app;
+package shiro.app;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.ComponentScan;
-import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
-@ComponentScan("redis_scheduledTasks")
-@EnableScheduling //开启定时任务注解
+@ComponentScan("shiro")
 @EnableAutoConfiguration
 public class App {
 
