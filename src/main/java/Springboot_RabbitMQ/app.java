@@ -1,13 +1,15 @@
-package shiro.app;
+package Springboot_RabbitMQ;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
 
-@ComponentScan("shiro.controller")
+@ComponentScan("Springboot_RabbitMQ")
 @EnableAutoConfiguration
-public class App {
-    public static void main(String[] orgs){
-        SpringApplication.run(App.class);
+public class app {
+
+    public static void main(String[] args) {
+
+        SpringApplication.run(app.class);
     }
 }
