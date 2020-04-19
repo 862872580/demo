@@ -4,7 +4,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
-import javax.servlet.http.HttpSession;
 import java.io.File;
 import java.io.IOException;
 
@@ -12,8 +11,9 @@ import java.io.IOException;
 public class FileUploadController {
 
     @PostMapping(value = "/fileUpload")
-    public String fileUpload(MultipartFile[] imgs, HttpSession session) throws IOException {
-        String path = session.getServletContext().getRealPath("/images");
+    public String fileUpload(MultipartFile[] imgs) throws IOException {
+        String path = Thread.currentThread().getContextClassLoader().getResource("").getPath()+"static/imgs";
+        System.out.println(path);
         for(MultipartFile img : imgs) {
             if (img.getSize() > 0) {
                 //获取到上传文件的原始名称

@@ -1,16 +1,16 @@
-package com.itmayiedu.dao;
+package shiro.dao;
 
-import com.itmayiedu.beans.Student;
 import org.apache.ibatis.annotations.Mapper;
-import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.cache.annotation.Cacheable;
+import shiro.beans.User;
 
 @CacheConfig(cacheNames = "baseCache")
-public interface IStudentDao {
+@Mapper
+public interface IUserDao {
 
-    @Select("select * from student where id=#{id}")
     @Cacheable
-    Student selectStudentById(@Param("id") int id);
+    @Select("select * from user where name=#{name}")
+    public User findByName(String name);
 }

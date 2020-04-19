@@ -7,7 +7,6 @@ import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.cache.annotation.Cacheable;
 
 @CacheConfig(cacheNames = "baseCache")
-@Mapper
 public interface IUserDao {
 
     @Insert("insert into uuid values (null)")

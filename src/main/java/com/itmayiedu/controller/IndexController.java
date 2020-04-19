@@ -32,4 +32,9 @@ public class IndexController {
         System.out.println(name);
         return "success";
     }
+
+    @RequestMapping("/test")
+    public String test(){
+        return "test";
+    }
 }
