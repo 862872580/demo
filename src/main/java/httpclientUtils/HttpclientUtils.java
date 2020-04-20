@@ -52,6 +52,8 @@ public class HttpclientUtils {
         if(statusCode == 200){
             HttpEntity entity = response.getEntity();
             String result = EntityUtils.toString(entity, "UTF-8");
+            //使用fastjson把json格式数据转换成对象
+            JSONObject.parseObject(result);
             System.out.println("result=" + result);
         }
     }
