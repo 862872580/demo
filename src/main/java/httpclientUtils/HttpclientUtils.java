@@ -1,5 +1,7 @@
 package httpclientUtils;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 import org.apache.http.HttpEntity;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
@@ -40,6 +42,7 @@ public class HttpclientUtils {
         CloseableHttpClient httpClient = HttpClients.createDefault();
         HttpPost httpPost = new HttpPost(url);
         ArrayList<NameValuePair> nameValuePairs = new ArrayList<>();
+        //传递参数
         nameValuePairs.add(new BasicNameValuePair("userName", "123"));
         nameValuePairs.add(new BasicNameValuePair("pwd", "654"));
         UrlEncodedFormEntity urlEncodedFormEntity = new UrlEncodedFormEntity(nameValuePairs,"UTF-8");
