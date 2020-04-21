@@ -1,4 +1,4 @@
-package com.itmayiedu.beans;
+package com.itmayiedu.entity;
 
 public class Student {
     private Integer id;

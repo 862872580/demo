@@ -1,7 +1,6 @@
-package com.itmayiedu.dao;
+package com.itmayiedu.mapper;
 
-import com.itmayiedu.beans.Student;
-import org.apache.ibatis.annotations.Mapper;
+import com.itmayiedu.entity.Student;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 import org.springframework.cache.annotation.CacheConfig;

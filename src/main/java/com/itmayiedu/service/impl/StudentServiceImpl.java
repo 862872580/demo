@@ -1,13 +1,14 @@
-package com.itmayiedu.service;
+package com.itmayiedu.service.impl;
 
-import com.itmayiedu.beans.Student;
-import com.itmayiedu.dao.IStudentDao;
+import com.itmayiedu.entity.Student;
+import com.itmayiedu.mapper.IStudentDao;
+import com.itmayiedu.service.IStudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
 @Service
-public class StudentServiceImpl implements IStudentService{
+public class StudentServiceImpl implements IStudentService {
 
     @Autowired
     private IStudentDao dao;

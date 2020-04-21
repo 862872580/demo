@@ -1,6 +1,6 @@
 package com.itmayiedu.controller;
 
-import com.itmayiedu.beans.Student;
+import com.itmayiedu.entity.Student;
 import com.itmayiedu.service.IStudentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.CacheManager;

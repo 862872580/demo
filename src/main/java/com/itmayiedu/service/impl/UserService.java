@@ -1,6 +1,6 @@
-package com.itmayiedu.service;
+package com.itmayiedu.service.impl;
 
-import com.itmayiedu.dao.IUserDao;
+import com.itmayiedu.mapper.IUserDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 

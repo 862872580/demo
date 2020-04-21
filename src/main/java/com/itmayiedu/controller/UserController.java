@@ -1,6 +1,6 @@
 package com.itmayiedu.controller;
 
-import com.itmayiedu.service.UserService;
+import com.itmayiedu.service.impl.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
