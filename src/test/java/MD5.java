@@ -1,3 +1,5 @@
+import org.apache.commons.codec.digest.DigestUtils;
+
 import java.math.BigInteger;
 import java.security.MessageDigest;
 
@@ -5,17 +7,9 @@ import java.security.MessageDigest;
 public class MD5 {
     public static void main(String[] orgs){
         String password = "1234567";
-        try{
-            // 生成一个MD5加密计算摘要
-            MessageDigest md = MessageDigest.getInstance("MD5");
-            // 计算md5函数
-            md.update(password.getBytes());
-            // digest()最后确定返回md5 hash值，返回值为8为字符串。因为md5 hash值是16位的hex值，实际上就是8位的字符
-            // BigInteger函数则将8位的字符串转换成16位hex值，用字符串来表示；得到字符串形式的hash值
-            String md5 = new BigInteger(1, md.digest()).toString(16);
-            System.out.println(md5);
-        } catch (Exception e) {
-            System.out.println("MD5加密出现错误");
-        }
+        String key = "12";
+        // 加密后的字符串
+        String md5str = DigestUtils.md5Hex(password + key);
+        System.out.println("MD5加密后的字符串为:" + md5str);
     }
 }
