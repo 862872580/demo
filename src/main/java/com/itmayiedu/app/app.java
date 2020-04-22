@@ -11,7 +11,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @ComponentScan({"com.itmayiedu.controller"
         , "com.itmayiedu.service"
         , "com.itmayiedu.app"})
-@MapperScan("com.itmayiedu.dao")
+@MapperScan("com.itmayiedu.mapper")
 @EnableCaching //开启缓存注解
 @EnableScheduling //开启定时任务注解
 @EnableAsync //开启异步注解
