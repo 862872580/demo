@@ -6,6 +6,7 @@ import org.apache.shiro.web.mgt.DefaultWebSecurityManager;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import shiro.config.RedisCache.ShiroRedisCacheManager;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -84,7 +85,7 @@ public class ShiroConfig {
 
     //Redis实现Session缓存；jedis
     //CacheManager导入Shiro
-    //未启用
+    //未启用:目的解决session共享
     @Bean
     public CacheManager RedisCacheManager(){
         return new ShiroRedisCacheManager();

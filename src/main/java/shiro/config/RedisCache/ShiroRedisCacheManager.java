@@ -1,4 +1,4 @@
-package shiro.config;
+package shiro.config.RedisCache;
 
 import org.apache.shiro.cache.AbstractCacheManager;
 import org.apache.shiro.cache.Cache;

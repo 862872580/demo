@@ -1,4 +1,4 @@
-package shiro.config;
+package shiro.config.RedisCache;
 
 import io.netty.util.internal.ObjectUtil;
 import org.apache.shiro.cache.Cache;
