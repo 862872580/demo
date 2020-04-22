@@ -80,10 +80,14 @@ public class ShiroConfig {
         return new UserRealm();
     }
 
+
+
     //Redis实现Session缓存；jedis
     //CacheManager导入Shiro
+    //未启用
     @Bean
     public CacheManager RedisCacheManager(){
         return new ShiroRedisCacheManager();
     }
+
 }
