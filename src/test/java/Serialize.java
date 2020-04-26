@@ -5,6 +5,5 @@ public class Serialize {
     public static void main(String[] orgs){
         String s = "asd";
         System.out.println(serialize(s));
-
     }
 }
