@@ -51,6 +51,7 @@ public class CommentService {
         return commentRepository.findByParentid(parentid, PageRequest.of(page-1, size));
     }
 
+    //跟新点赞数
     public void updateCommentLikeNum(String id){
         //查询条件
         Query query = Query.query(Criteria.where("_id").is(id));
