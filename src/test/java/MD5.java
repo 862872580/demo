@@ -1,9 +1,5 @@
 import org.apache.commons.codec.digest.DigestUtils;
 
-import java.math.BigInteger;
-import java.security.MessageDigest;
-
-
 public class MD5 {
     public static void main(String[] orgs){
         String password = "1234567";
