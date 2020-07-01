@@ -12,4 +12,7 @@ public interface IStudentDao {
     @Select("select * from student where id=#{id}")
     @Cacheable
     Student selectStudentById(@Param("id") int id);
+
+    @Select("select * from student")
+    Student[] selectAllStudent();
 }
