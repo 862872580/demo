@@ -1,7 +1,7 @@
 import com.alibaba.fastjson.JSON;
 import shiro.beans.User;
 
-public class fastjson {
+public class FastJson {
     public static void main(String[] orgs){
         User user = new User();
         user.setId(1);

@@ -69,10 +69,10 @@
             <artifactId>ehcache</artifactId>
         </dependency>
 
-        <!--        fastjson-->
+        <!--        FastJson-->
         <dependency>
             <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
+            <artifactId>FastJson</artifactId>
             <version>1.2.15</version>
         </dependency>
 
@@ -163,12 +163,6 @@
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
             <version>4.1.2</version>
-        </dependency>
-<!--        oracle-->
-        <dependency>
-            <groupId>oracle</groupId>
-            <artifactId>ojdbc6</artifactId>
-            <version>11.2.0.4</version>
         </dependency>
     </dependencies>
 
