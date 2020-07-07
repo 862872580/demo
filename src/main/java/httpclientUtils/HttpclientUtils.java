@@ -1,6 +1,6 @@
 package httpclientUtils;
 
-import com.alibaba.fastjson.JSON;
+
 import com.alibaba.fastjson.JSONObject;
 import org.apache.http.HttpEntity;
 import org.apache.http.NameValuePair;
