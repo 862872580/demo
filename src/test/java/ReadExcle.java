@@ -2,7 +2,6 @@ import org.apache.poi.ss.usermodel.*;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.text.SimpleDateFormat;
 
 public class ReadExcle {
     public static void main(String[] args) {
@@ -12,7 +11,6 @@ public class ReadExcle {
 
 
     public static void readExcel(String path) {
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         File file = new File(path);
         FileInputStream fis = null;
         Workbook workBook = null;
